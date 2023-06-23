@@ -186,6 +186,7 @@ img {
     letter-spacing: var(--standart-letter-spacing);
     color: var(--white-text);
     max-width: 496px;
+    margin-bottom: 48px;
     margin:0 auto;
 }
 
@@ -205,7 +206,6 @@ img {
     color: var(--white-text);
     height: 56px;
     min-width: 169px;
-    margin-top: 48px;
     margin: 0 auto;
     padding: 16px 32px;
 }
@@ -308,7 +308,9 @@ img {
 
 .team-list {
     display: flex;
-    gap: 24px;
+  
+   justify-content: center;
+   gap: 24px;
 }
 
 .list-items {
@@ -323,6 +325,7 @@ img {
 .team-container {
     width: 264px;
     height: 428px;
+    
 }
 
 .team-title {
