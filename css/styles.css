@@ -748,6 +748,11 @@ img {
    .portfolio-link:focus .apps-cover-text {
     transform: translateY(0%);}
 
+    .portfolio-wrap {
+        position: relative;
+        overflow: hidden;
+     }
+
 .pics-title {
     font-weight: 500;
     font-size: var(--we-are-size);
@@ -774,17 +779,15 @@ img {
     padding: 32px 16px;
 }
 
-.apps-cover-wrap {
-    position: relative;
-    overflow: hidden;
-  }
-
 .apps-cover-text {
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
     position: absolute;
     top: 0;
     background: #4d5ae5;
     padding: 40px 32px;
-    color: var(--back-btn-portfolio);
+    color: var(--light-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
